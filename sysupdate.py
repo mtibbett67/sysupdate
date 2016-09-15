@@ -88,10 +88,10 @@ else:
 
     apt(G + 'Retrieving new lists of packages' + W, 'update')
     print NL + SEPARATOR + NL
+    apt(G + 'Performing dist-upgrade' + W, 'dist-upgrade')
+    print NL + SEPARATOR + NL
     apt(G + 'Performing upgrades' + W, 'upgrade')
     print NL + SEPARATOR + NL
-#   apt(G + 'Performing dist-upgrade' + W, 'dist-upgrade')
-#   print NL + SEPARATOR + NL
     apt(G + 'Erasing downloaded archive files' + W, 'clean')
     print NL + SEPARATOR + NL
     apt(G + 'Erasing old downladed archive files' + W, 'autoclean')
