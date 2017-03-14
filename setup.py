@@ -79,3 +79,4 @@ if UID != 0:
 
 copyfile ('./sysupdate.py', '/usr/local/bin/sysupdate.py')
 
+subprocess.call(['chmod', '+x', '/usr/local/bin/sysupdate.py')
