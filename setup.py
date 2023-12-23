@@ -3,7 +3,7 @@
 
 '''
 NAME:
-setupe.py
+setup.py
 
 DESCRIPTION:
 Install sysupdate.py to /usr/local/bin
